@@ -17,7 +17,7 @@ class Filme extends Component {
       .then((response) => response.json())
       .then((json) => {
         this.setState({ filme: json });
-        console.log(json);
+        // console.log(json);
       });
   }
 
